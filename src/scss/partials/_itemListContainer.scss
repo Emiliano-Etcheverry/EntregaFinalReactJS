@@ -1,0 +1,132 @@
+.itemListContainer{
+    width: 100%;
+    
+    .cardGrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+        padding: 15px;
+        width: 100%;
+
+        .cardContainer{
+            display: flex;
+            justify-content: center;
+        
+            a{
+                text-decoration: none;
+            }
+        
+            .card{
+                position: relative;
+                padding: 8px;
+                width: 270px;
+                height: fit-content;
+                background-color: #414A4C;
+                border-radius: 15px;
+                margin: 10px;
+                
+                .descripcion{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 5px;
+            
+                    .type{
+                        background-color: blue;
+                        height: 35px;
+                        width: 35px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 8px;
+                        
+                        h1{
+                            font-size: 2.2vh;
+                            color: white;
+                        }
+                    }
+            
+                    .textType{
+                        padding: 5px;
+                        width: max-content;
+                        text-align: left;
+                        
+                        h2{
+                            color: rgba(255, 253, 253, 0.473);
+                            font-size: 1vh;
+                        }
+            
+                        p{
+                            padding-top: 2px;
+                            color: white;
+                            font-size: 1.45vh;
+                        }
+                    }
+            
+                    .fav{
+                        position: absolute;
+                        right: 10px;
+                        background-color: #2c3233;
+                        padding: 4px;
+                        border-radius: 3px;
+            
+                        h3{
+                            color: rgba(255, 255, 255, 0.959);
+                            font-size: 1.5vh;
+                        }
+                    }
+                }
+            
+                .cuerpo{
+                    display: flex;
+                    justify-content: center;
+                    
+                    
+                    img{
+                        width: 250px;
+                        border-radius: 12px;
+                    }
+                }
+            
+                .footer{
+                    padding-top: 2px;
+                    
+            
+                    .cardRarity{
+            
+                        h3{
+                            padding-bottom: 2px;
+                            font-size: 10px;
+                            color: white;
+                        }
+                        
+                        h2{
+                            font-size: 1vh;
+                            color: grey;
+                            
+            
+                            span{
+                                color: white;
+                            }
+                        }         
+                    }
+            
+                    button{
+                        position: absolute;
+                        right: 10px;
+                        bottom: 5px;
+                        width: 30px;
+                        border-radius: 5px;
+                        background-color: rgb(161, 215, 236);
+                        cursor: pointer;
+                    }
+            
+                }
+            }
+
+        }
+    
+            
+    }
+    
+}
+
+

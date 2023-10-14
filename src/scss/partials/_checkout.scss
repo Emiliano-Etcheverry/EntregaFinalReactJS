@@ -1,0 +1,139 @@
+.checkoutBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5%;
+        box-shadow: 0 0 8px black;
+
+        .errorCampo{
+            width: 100%;
+            color: red;
+            background-color: blue;
+            font-size: xx-large;
+        }
+    
+        .checkoutPrimary{
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 870px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px black;
+
+        h2{
+            
+            padding-top: 30px;
+            padding-bottom: 30px; 
+              
+        }
+    
+        .checkoutForm{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            justify-content: center;
+            gap: 30px;
+
+            .nameForm{
+                
+                display: flex;
+                justify-content: space-between;
+                gap: 50px;
+                width: 100%;
+
+                .lab-2{
+
+                    width: 100%;
+
+                    input{
+                        width: 100%; 
+                        height: 40px;
+                        border: groove 2px rgba(128, 128, 128, 0.274);
+                        border-radius: 5px;
+                        padding: 0 10px 0 10px;
+                    }
+                }
+            }
+    
+            .lab{
+            
+                width: 100%;
+
+                input{
+                    width: 100%;
+                    height: 40px;
+                    border: groove 2px rgba(128, 128, 128, 0.274);
+                    border-radius: 5px;
+                    padding: 0 10px 0 10px;
+                }
+            }
+
+            .productForm{
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                height: 30px;
+                border: groove 2px rgba(66, 66, 66, 0.87);
+                border-radius: 5px;
+                padding: 0 10px 0 10px;
+
+                .productQuantity{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    h4{
+                        text-align: center;
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 5px;
+                        border: solid 2px rgba(114, 110, 102, 0.5);
+                    }
+
+                    h5{
+                        font-size: bold;
+                    }
+                }
+            }
+            
+            .errores{
+                p{
+                    font-weight: bolder;
+                }
+            }
+
+            .checkoutButton{
+                width: 80px;
+                height: 40px;
+                background-color: rgba(0, 0, 0, 0.473);
+                color: white;
+                border-radius: 5px;
+                border: solid 2px rgba(114, 110, 102, 0.5);
+                margin-bottom: 20px;
+                cursor: pointer;
+            }
+        }
+
+        p{
+            font-size: large;
+            margin: 0;
+            padding: 20px;
+        }
+
+        
+            
+            
+    
+            
+        
+    }
+}
+

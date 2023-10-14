@@ -1,0 +1,131 @@
+.sidebar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 63px;
+    height: 100vh;
+    background: grey;
+    transition: all 150ms ease-in-out;
+    
+    &:hover{
+        width: 225px;
+        
+        .wrapper{
+            
+            .navLogo{
+                
+                span{
+                    
+                    color: white;
+                }
+                
+            }
+
+            .navLinks{
+
+                hr{
+                    width: 100%;
+                    margin: 2% 0 2% 0;
+                }
+
+                p{
+                    color: white;
+                }
+
+                .link{
+
+                    a{
+
+                        .bi{
+    
+                            span{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .link{
+                
+                &:hover{
+                    background: rgba(112, 110, 110, 0.959);
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    }
+    .wrapper {
+        width: 225px;
+        height: 100vh;  
+
+        .navLogo{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+
+            .logo{
+                width: 60px;
+                padding: 20px 5px;
+                background: grey;
+                margin-bottom: 20px;
+            }
+
+            span{
+                font-size: x-large;
+                text-align: center;
+                padding: 20px 5px;
+                color: transparent;
+            }
+        }
+        
+        
+        .navLinks{
+            padding: 0px 5px;
+            text-align: center;
+            color: white;
+            
+            p{
+                margin-top: 15px;
+                font-size: 17px;
+                font-weight: bold;
+                color: transparent;
+            }
+
+            .link{
+                margin: 8px 0px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                padding: 0px 12px;
+                border-radius: 20px;
+                transition: all 50ms ease-in-out;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+
+                    .bi{
+                        font-size: 28px;
+    
+                        span{
+                            display: inline-block;
+                            font-size: 17px;
+                            margin-left: 20px;
+                            color: transparent;
+                        }
+                    }
+                }   
+                
+            }
+
+            hr{
+                margin: 8px 0 8px 0;
+                transition: all 100ms ease-in-out;
+                width: 50px;
+            }
+        }
+
+    }  
+}
